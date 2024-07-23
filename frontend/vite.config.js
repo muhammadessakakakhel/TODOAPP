@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://todoapp-apii.vercel.app',
+        target: 'https://todoapp-api-ashen.vercel.app/',
       },
     },
   },
