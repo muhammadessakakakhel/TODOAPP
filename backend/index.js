@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8000;
 // middleware
 app.use(cors(
   {
-    origin: ["https://deploy-mern-1whq.vercel.app"],
+    origin: ["https://todoapp-frontend-zeta.vercel.app/auth"],
     methods:["POST", "GET"],
     credentials: true
   }
