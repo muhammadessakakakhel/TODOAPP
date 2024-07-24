@@ -10,6 +10,8 @@ export default defineConfig({
       '/api': {
 
         target: 'https://todoapp-api-opal.vercel.app',
+        changeOrigin: true,
+        secure: false,
 
       },
     },
