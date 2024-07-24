@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8000;
 // middleware
 app.use(cors(
   {
-    origin: ["https://todoapp-frontend-zeta.vercel.app/auth"],
+    origin: ["https://todoapp-frontend-eosin.vercel.app/auth"],
     methods:["POST", "GET"],
     credentials: true
   }
