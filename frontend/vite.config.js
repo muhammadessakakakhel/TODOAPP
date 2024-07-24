@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       '/api': {
 
-        target: 'https://todoapp-api-opal.vercel.app',
+        target: 'https://todoapp-api-opal.vercel.app/',
 
       },
     },
